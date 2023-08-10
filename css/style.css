@@ -10,6 +10,7 @@ li {
 .sideMenu {
   position: sticky;
   top:72px;
+
 }
 
 nav {
@@ -24,6 +25,12 @@ nav {
 top: 0px;
 }
 
+.logo{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+ }
+
 
 .logo p{
  padding-left: 40px;
@@ -31,28 +38,29 @@ top: 0px;
  font-weight: 500;
 }
 
-.logo img {
-  height: 80px;
-}
+
 
 ul.navbar {
  list-style: none;
  padding: 0;
  display: flex;
+ 
 }
 
-ul.navbar li {
+ul.navbar li a {
  margin-right: 20px;
  cursor: pointer;
  position: relative;
+ text-decoration: none;
+ color: #3F2305;
 }
 
-ul.navbar li.active{
+ul.navbar li a.active{
  font-weight: 700;
  color: #3F2305;
 }
 
-ul.navbar li.active::after {
+ul.navbar li a.active::after {
  content: "";
  position: absolute;
  bottom: -5px;
