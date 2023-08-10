@@ -7,13 +7,21 @@ li {
   font-family: 'SF Pro', Arial, Helvetica, sans-serif;
 }
 
+.sideMenu {
+  position: sticky;
+  top:72px;
+}
+
 nav {
+  z-index: 5;
   display: flex;
   align-items: center;
   justify-content: space-between;
   background-color: #ffffff;
   padding: 10px;
   font-size: larger;
+  position: sticky;
+top: 0px;
 }
 
 
@@ -53,3 +61,77 @@ ul.navbar li.active::after {
  height: 3px;
  background-color: #3F2305;
 }
+
+.heroImg {
+  height: 400px;
+}
+
+.empathyMap,
+.protoPersona,
+.userPersona,
+.brainstorm,
+.userJounerymap,
+.images {
+  width: 900px;
+  border-radius: 16px 16px 16px 16px;
+}
+
+.overview {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.margin {
+  margin-bottom: 40px;
+}
+
+.font_weight_400 {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  background-color: #3F2305;
+}
+
+.nav-pills a, .nav-link a {
+color: #3F2305;
+}
+
+footer {
+  background-color: #DFD7BF;
+  padding-top: 20px;
+  border-radius: 16px 16px 0px 0px;
+}
+
+.letsconnect {
+  font-size: x-large;
+  padding-left: 40px;
+}
+
+.copyright {
+ padding-left: 40px;
+ padding-bottom: 20px;
+}
+
+footer ul {
+  display: flex;
+  align-items: flex-start;
+  justify-content: left;
+  width: 360px;
+  margin-bottom: 10px;
+}
+
+footer ul li {
+  list-style: none;
+  padding-right: 40px;
+}
+
+footer ul li img {
+  height: 40px
+}
+
+.spacing {
+  margin-bottom: 200px;
+}
+
